@@ -3,6 +3,7 @@ body, html {
     height: 100%
     padding: 0;
     margin: 0;
+    
 }
 
 * {
@@ -49,4 +50,14 @@ body, html {
     display:grid;
     justify-content: center;
     align-items: center;
+}
+.buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center; 
+}
+#name_button{
+    background-color: lightgreen;
+
 }
